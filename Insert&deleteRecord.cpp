@@ -1,3 +1,4 @@
+/* Implementation of a direct access file- insertion and deletion of a record from a direct access file*/
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -119,7 +120,7 @@ char name[max],address[max];
 while(choice!=5)
 {
 //clrscr();
-cout<<"\n*****Phone Book*****\n";
+cout<<"\n**Phone Book**\n";
 cout<<"1) Add New Record\n";
 cout<<"2) Display All Records\n";
 cout<<"3) Display by RollNo\n";
